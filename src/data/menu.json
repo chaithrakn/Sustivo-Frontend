@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Home",
+    "link": "/"
+  },
+  {
+    "title": "About Us",
+    "link": "/about"
+  },
+  {
+    "title": "Blog",
+    "link": "/blog"
+  },
+  
+        
+  {
+    "title": "Contact",
+    "link": "/contact"
+  },
+  
+  {
+    "title": "Add a listing",
+    "link": "/user-add-1",
+    "button": true,
+    "hideToLoggedUser": true
+  }
+]

@@ -2,6 +2,7 @@ import React from "react"
 import Link from "next/link"
 
 import "react-dates/initialize"
+
 import { useRouter } from 'next/router'
 
 import { Container, Row, Col, Form, Button, Badge } from "react-bootstrap"
@@ -12,9 +13,9 @@ import Swiper from "../components/Swiper"
 import Reviews from "../components/Reviews"
 import ReviewForm from "../components/ReviewForm"
 
-import data from "../data/detail-rooms.json"
-import { useState, useEffect } from 'react';
-import { getHotel } from '../hooks/hotels';
+import { useLocation } from 'react-router';
+import queryString from 'query-string';
+import details from "../data/detail-rooms.json"
 
 import SwiperGallery from "../components/SwiperGallery"
 import Gallery from "../components/Gallery"
@@ -38,10 +39,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons"
 import Avatar from "../components/Avatar"
 
-import { useLocation } from 'react-router-dom'
-
-export async function getStaticProps(context) {
-  console.log(context.query) 
+export async function getStaticProps() {
+  //const index = query.index;
   return {
     props: {
       nav: {
@@ -50,35 +49,22 @@ export async function getStaticProps(context) {
         color: "white",
       },
       title: "Rooms detail",
+      //index: index
     },
   }
 }
 
-
-const DetailRooms = (props) => {
+const DetailRooms = () => {
   const router = useRouter()
-  console.log(router.query);
-  console.log(router.query.id);
+  const { q } = router.query;
+  const index = router.isReady ? router.query.index :0
+  console.log(index)
+  //console.log(router.query.index)
 
-  const [hotel, setHotel] = useState([]);
-
-  const fetchData = () => {
-    fetch(`http://localhost:8081/hotels/${router.query.id}`)
-      .then((response) => response.json())
-      .then((data) => {
-        setHotel(data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  };
-  useEffect(() => {
-    fetchData();
-  }, []);
+  //const data = require('../data/detail-rooms/' + router.query.index )
+  const data = details[index]
+  console.log(data)
   
-  console.log(hotel)
-  console.log(hotel.values)
-
   const size = UseWindowSize()
   const [range, setRange] = React.useState([
     { startDate: new Date() },
@@ -86,11 +72,13 @@ const DetailRooms = (props) => {
   ])
   const [dateFocused, setDateFocused] = React.useState(range.startDate)
 
-//   const tagItems = hotel.tags.map((item) =>
-//   <li>
-//     {item}
-//   </li>
-// );
+  const groupByN = (n, data) => {
+    let result = []
+    for (let i = 0; i < data.length; i += n) result.push(data.slice(i, i + n))
+    return result
+  }
+
+  const groupedAmenities = data.amenities && groupByN(4, data.amenities)
 
   return (
     <React.Fragment>
@@ -99,22 +87,32 @@ const DetailRooms = (props) => {
         <Container className="py-5">
           <Row>
             <Col lg="8">
-
+              
               <div className="text-block">
-              {hotel.name && <h1>{hotel.name}</h1>}
-                <h4 className="text-primary">
+              {data.name && <h1>{data.name}</h1>}
+                <h6 className="text-primary">
+
                   <FontAwesomeIcon icon={faMapMarkerAlt} className="me-1" />
-                  &nbsp;{hotel.city && hotel.city}, {hotel.country && hotel.country}
+                  &nbsp;{data.address && data.address}
+                </h6>
+
+                <h6 className="text-primary">
+
                   
-                </h4>
+                  Website: {data.website && data.website}
+                </h6>
                 
-                
+                {data.category && (
+                  <div className="text-muted text-uppercase mb-4">
+                    {data.category}
+                  </div>
+                )}
                 {data.tags && (
                   <ul className="list-inline text-sm mb-4">
                     {data.tags.map((tag) => {
                       let tagIcon
                       switch (tag.icon) {
-                        case "carbonNeutral":
+                        case "door-open":
                           tagIcon = faDoorOpen
                           break
                         case "bed":
@@ -139,41 +137,146 @@ const DetailRooms = (props) => {
                     })}
                   </ul>
                 )}
-
-                {/* {hotel.tags && (
-                  <ul className="list-inline text-sm mb-4">
-                    {tagItems}
-                    {hotel.tags.map((tag) => {
-                      
-                      return (
-                        <li key={tag.value} className="list-inline-item me-3">
-
-                          {tag.value}
-                        </li>
-                      )
-                    })}
-                  </ul> */}
-                {/* )} */}
-                
                 <p className="text-muted fw-light">
-                  {hotel.description}
+                  {data.description}{" "}
                 </p>
-                <h6 className="mb-3">Sustivo Values</h6>
-                {/* <div>
-                    {hotel.values}.map((item, key) => (
-                      <li key={key}>{item}</li>))}
-                </div>   */}
+                <h6 className="mb-3">Our give-back initiatives</h6>
+                <p className="text-muted fw-light">
+                  {data.extra}{" "}
+                </p>
                 
               </div>
-              
-              
+
+              <h4 className="mb-4">Sustivo Values</h4>
+              {data.values && (
+                  <ul className="list-inline text-sm mb-4">
+                    {data.values.map((val) => {
+                    
+                      return (
+                        <li key={val.value} className="list-inline-item me-3">
+                          <FontAwesomeIcon
+                            //icon={tagIcon}
+                            className="me-1 text-secondary"
+                          />
+                          <p><span className="text-sm">
+                            {val.value}
+                          </span></p>
+                        </li>
+                        
+                      )
+                    })}
+                  </ul>
+                )}   
+
+              {data.amenities && (
+                <React.Fragment>
+                  <div className="text-block">
+                    <h4 className="mb-4">Amenities</h4>
+                    <Row>
+                      {groupedAmenities &&
+                        groupedAmenities.map((amenityBlock) => (
+                          <Col key={amenityBlock[0].value} md="6">
+                            <ul className="list-unstyled text-muted">
+                              {amenityBlock.map((amenity) => {
+                                let amenityIcon
+                                switch (amenity.icon) {
+                                  case "tv":
+                                    amenityIcon = faTv
+                                    break
+                                  case "snowflake":
+                                    amenityIcon = faSnowflake
+                                    break
+                                  case "thermometer-three-quarters":
+                                    amenityIcon = faThermometerThreeQuarters
+                                    break
+                                  case "bath":
+                                    amenityIcon = faBath
+                                    break
+                                  case "utensils":
+                                    amenityIcon = faUtensils
+                                    break
+                                  case "laptop":
+                                    amenityIcon = faLaptop
+                                    break
+                                  case "tshirt":
+                                    amenityIcon = faTshirt
+                                    break
+                                  default:
+                                    amenityIcon = faWifi
+                                }
+                                return (
+                                  <li key={amenity.value} className="mb-2">
+                                    <FontAwesomeIcon
+                                      icon={amenityIcon}
+                                      className="text-secondary w-1rem me-3 text-center"
+                                    />
+
+                                    <span className="text-sm">
+                                      {amenity.value}
+                                    </span>
+                                  </li>
+                                )
+                              })}
+                            </ul>
+                          </Col>
+                        ))}
+                    </Row>
+                  </div>
+                  
+                </React.Fragment>
+              )}
+
+               
+
+             
+              {data.author && (
+                <div className="text-block">
+                  <div className="d-flex">
+                    <Avatar
+                      size="lg"
+                      image={`/content/img/avatar/${data.author.avatar}`}
+                      className="me-4"
+                      border
+                      alt={data.author.name}
+                    />
+
+                    <div>
+                      <p>
+                        <span className="text-muted text-uppercase text-sm">
+                          Hosted by
+                        </span>
+                        <br />
+                        <strong>{data.author.name}</strong>
+                      </p>
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: data.author.content,
+                        }}
+                      />
+                      <p className="text-sm">
+                        <Link href="/user-profile">
+                          <a>
+                            See{" "}
+                            {data.author.name.split(" ").slice(0, -1).join(" ")}
+                            's 3 other listings{" "}
+                            <FontAwesomeIcon
+                              icon={faLongArrowAltRight}
+                              className="ms-2"
+                            />
+                          </a>
+                        </Link>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
               <div className="text-block">
                 <h3 className="mb-4">Location</h3>
                 <div className="map-wrapper-300 mb-3">
                   <Map
                     className="h-100"
-                    center={[40.732346, -74.0014247]}
-                    circlePosition={[40.732346, -74.0014247]}
+                    center={[-13.2962617,-72.1300811]}
+                    circlePosition={[-13.2962617,-72.1300811]}
                     circleRadius={500}
                     zoom={14}
                   />
@@ -192,10 +295,9 @@ const DetailRooms = (props) => {
                   />
                 </div>
               )}
-              
-              
+              {data.reviews && <Reviews data={data.reviews} />}
+              <ReviewForm />
             </Col>
-
             <Col lg="4">
               <div
                 style={{ top: "100px" }}
@@ -203,9 +305,9 @@ const DetailRooms = (props) => {
               >
                 <p className="text-muted">
                   <span className="text-primary h2">
-                    {data.price && data.price}
+                    Coming Soon!
                   </span>{" "}
-                  per night
+                  
                 </p>
                 <hr className="my-4" />
                 <Form
@@ -247,12 +349,12 @@ const DetailRooms = (props) => {
                     <Button type="submit">Book your stay</Button>
                   </div>
                 </Form>
-                <p className="text-muted text-sm text-center">
+                {/* <p className="text-muted text-sm text-center">
                   Some additional text can be also placed here.
-                </p>
+                </p> */}
                 <hr className="my-4" />
                 <div className="text-center">
-                  <p>
+                  {/* <p>
                     <a href="#" className="text-secondary text-sm">
                       <FontAwesomeIcon icon={faHeart} />
                       &nbsp;Bookmark This Listing
@@ -260,7 +362,7 @@ const DetailRooms = (props) => {
                   </p>
                   <p className="text-muted text-sm">
                     79 people bookmarked this place{" "}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </Col>
@@ -294,6 +396,5 @@ const DetailRooms = (props) => {
     </React.Fragment>
   )
 }
-
 
 export default DetailRooms

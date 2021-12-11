@@ -1,0 +1,237 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.99967, 40.73723]
+      },
+      "properties": {
+        "id": "59c0c8e33b1527bfe2abaf92",
+        "index": 0,
+        "isActive": true,
+        "logo": "http://placehold.it/32x32",
+        "image": "solyluna.jpg",
+        "link": "/detail-rooms",
+        "url": "#",
+        "name": "Hotel Sol y Luna",
+        "subtitle": "Generates income to support the Sol y Luna Intercultural School",
+        "website": "https://www.hotelsolyluna.com/",
+        "address": "Sacred Valley, Peru",
+        "about": "Cupidatat excepteur non dolore laborum et quis nostrud veniam dolore deserunt. Pariatur dolore ut in elit id nulla. Irure nostrud sint deserunt enim Lorem. Do eu esse consequat mollit labore commodo officia labore voluptate sit voluptate cupidatat.\r\n",
+        "tags": ["et", "cupidatat"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9906951, 40.7384555]
+      },
+      "properties": {
+        "id": "59c0c8e322f3375db4d89128",
+        "index": 1,
+        "isActive": true,
+        "logo": "http://placehold.it/32x32",
+        "link": "/detail-rooms",
+        "url": "#",
+        "name": "Awasi Patagonia",
+        "subtitle": "Certified Carbon Neutral",
+        "website": "https://awasipatagonia.com/about/",
+        "address": "Torres Del Paine, Chile",
+        "image": "awasi.jpeg",
+        "latlong": "-13.2962617,-72.1300811",
+        "about": "Proident irure eiusmod velit veniam consectetur id minim irure et nostrud mollit magna velit. Commodo amet proident aliqua qui enim exercitation ipsum laborum Lorem. Irure nostrud sint deserunt enim Lorem. Do eu esse consequat mollit labore commodo officia labore voluptate sit voluptate cupidatat.\r\n",
+        "tags": ["magna", "culpa"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0014247, 40.732346]
+      },
+      "properties": {
+        "id": "59c0c8e3a31e62979bf147c9",
+        "index": 2,
+        "isActive": true,
+        "logo": "http://placehold.it/32x32",
+        "image": "conscious.jpeg",
+        "link": "/detail-rooms",
+        "url": "#",
+        "name": "Conscious Hotels",
+        "subtitle": "Sustainable & smart eco-design hotels",
+        "email": "https://www.conscioushotels.com/",
+        "stars": 3,
+        "price": 75,
+        "person": "Julie",
+        "avatar": "img/avatar/avatar-8.jpg",
+        "phone": "+1 (863) 446-2211",
+        "address": "Amsterdam, Netherlands",
+        "about": "Lorem amet ex duis in et fugiat consectetur laborum eiusmod labore. Quis cupidatat et do dolor in in magna. Eu sit quis cillum proident pariatur commodo consequat ea sunt mollit. Ad aliquip aliquip amet occaecat aute incididunt ex sit culpa adipisicing amet officia nisi. Commodo amet proident aliqua qui enim exercitation ipsum laborum Lorem.\r\n",
+        "tags": ["ex", "exercitation"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9969277, 40.7246413]
+      },
+      "properties": {
+        "id": "59c0c8e3503eb77d487e8082",
+        "index": 3,
+        "isActive": false,
+        "logo": "http://placehold.it/32x32",
+        "image": "posada.jpeg",
+        "link": "/detail-rooms",
+        "url": "#",
+        "name": "Posada Amazonas",
+        "subtitle": "Eseeja de Infierno Native Community directly receives 75% of the profits that the business generates",
+        "email": "https://www.rainforestexpeditions.com/amazon-lodge/posada-amazonas/",
+        "address": "Madre de Dios, Peru",
+        "about": "Deserunt eiusmod Lorem proident consequat elit culpa laboris ea cupidatat. Consequat dolore proident ipsum qui sint enim id in non et duis sunt aute qui. Laboris deserunt enim exercitation do consequat irure dolor ipsum commodo est fugiat qui mollit.\r\n",
+        "tags": ["eiusmod"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9893617, 40.741726]
+      },
+      "properties": {
+        "id": "59c0c8e39aa2eed0626e485d",
+        "index": 4,
+        "isActive": false,
+        "logo": "http://placehold.it/32x32",
+        "image": "edenlodge.jpeg",
+        "link": "/detail-rooms",
+        "url": "#",
+        "name": "Eden Lodge Paris",
+        "subtitle": "Green and glamorous, in the heart of Paris",
+        "email": "https://www.edenlodgeparis.net/en/eco-luxury/",
+        "address": "Paris, France",
+        "about": "Cillum sunt reprehenderit ea non irure veniam dolore commodo labore fugiat est consequat velit. Cupidatat nisi qui ad sit ut labore id esse tempor proident enim exercitation est aliquip. Ipsum deserunt dolor proident sunt ut proident esse do pariatur duis incididunt id ullamco. Dolore proident consectetur dolor irure mollit commodo sunt dolore.  \r\n",
+        "tags": ["nisi", "ex", "eiusmod"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.96, 40.741726]
+      },
+      "properties": {
+        "id": "59c0c8e39aa2edasd626e485d",
+        "index": 5,
+        "isActive": false,
+        "logo": "http://placehold.it/32x32",
+        "image": "threecamel.jpg",
+        "link": "/detail-rooms",
+        "url": "#",
+        "name": "Three Camel Lodge",
+        "subtitle": "Explore Mongolia’s nomadic culture and untouched landscapes",
+        "email": "https://www.threecamellodge.com/",
+        
+        "address": "Mongolia",
+        "about": "Cillum sunt reprehenderit ea non irure veniam dolore commodo labore fugiat est consequat velit. Cupidatat nisi qui ad sit ut labore id esse tempor proident enim exercitation est aliquip. Ipsum deserunt dolor proident sunt ut proident esse do pariatur duis incididunt id ullamco. Dolore proident consectetur dolor irure mollit commodo sunt dolore.  \r\n",
+        "tags": ["nisi", "ex", "eiusmod"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.96, 40.741726]
+      },
+      "properties": {
+        "id": "59c0c8e39aa2edasd626e485d",
+        "index": 6,
+        "isActive": false,
+        "logo": "http://placehold.it/32x32",
+        "image": "whitepod.jpeg",
+        "link": "/detail-rooms",
+        "url": "#",
+        "name": "White Pod",
+        "subtitle": "Unique experience where nature is luxury",
+        "email": "https://whitepod.com/",
+        
+        "address": "Switzerland",
+        "about": "Cillum sunt reprehenderit ea non irure veniam dolore commodo labore fugiat est consequat velit. Cupidatat nisi qui ad sit ut labore id esse tempor proident enim exercitation est aliquip. Ipsum deserunt dolor proident sunt ut proident esse do pariatur duis incididunt id ullamco. Dolore proident consectetur dolor irure mollit commodo sunt dolore.  \r\n",
+        "tags": ["nisi", "ex", "eiusmod"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.96, 40.741726]
+      },
+      "properties": {
+        "id": "59c0c8e39aa2edasd626e485d",
+        "index": 7,
+        "isActive": false,
+        "logo": "http://placehold.it/32x32",
+        "image": "tigermountain.jpeg",
+        "link": "/detail-rooms",
+        "url": "#",
+        "name": "Tiger Mountain Pokhara",
+        "subtitle": "Regenerative Tourism",
+        "email": "https://tigermountainpokhara.com/",
+        
+        "address": "Pokara, Nepal",
+        "about": "Cillum sunt reprehenderit ea non irure veniam dolore commodo labore fugiat est consequat velit. Cupidatat nisi qui ad sit ut labore id esse tempor proident enim exercitation est aliquip. Ipsum deserunt dolor proident sunt ut proident esse do pariatur duis incididunt id ullamco. Dolore proident consectetur dolor irure mollit commodo sunt dolore.  \r\n",
+        "tags": ["nisi", "ex", "eiusmod"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.96, 40.741726]
+      },
+      "properties": {
+        "id": "59c0c8e39aa2edasd626e485d",
+        "index": 8,
+        "isActive": false,
+        "logo": "http://placehold.it/32x32",
+        "image": "misool.jpg",
+        "link": "/detail-rooms",
+        "url": "#",
+        "name": "Misool",
+        "subtitle": "Private island resort on the 300,000-acre Misool Marine Reserve",
+        "email": "https://www.misool.info/",
+        
+        "address": "Raja Ampat, Indonesia",
+        "about": "Cillum sunt reprehenderit ea non irure veniam dolore commodo labore fugiat est consequat velit. Cupidatat nisi qui ad sit ut labore id esse tempor proident enim exercitation est aliquip. Ipsum deserunt dolor proident sunt ut proident esse do pariatur duis incididunt id ullamco. Dolore proident consectetur dolor irure mollit commodo sunt dolore.  \r\n",
+        "tags": ["nisi", "ex", "eiusmod"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.96, 40.741726]
+      },
+      "properties": {
+        "id": "59c0c8e39aa2edasd626e485d",
+        "index": 9,
+        "isActive": false,
+        "logo": "http://placehold.it/32x32",
+        "image": "laparios.jpeg",
+        "link": "/detail-rooms",
+        "url": "#",
+        "name": "Lapa Rios",
+        "subtitle": "Protects 1,000 acres of Central America’s last remaining tropical lowland rainforest",
+        "email": "https://www.laparios.com/",
+        
+        "address": "Osa Peninsula, Costa Rica",
+        "about": "Cillum sunt reprehenderit ea non irure veniam dolore commodo labore fugiat est consequat velit. Cupidatat nisi qui ad sit ut labore id esse tempor proident enim exercitation est aliquip. Ipsum deserunt dolor proident sunt ut proident esse do pariatur duis incididunt id ullamco. Dolore proident consectetur dolor irure mollit commodo sunt dolore.  \r\n",
+        "tags": ["nisi", "ex", "eiusmod"]
+      }
+    }
+
+  ]
+}

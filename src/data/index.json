@@ -1,0 +1,58 @@
+{
+    "hero": {
+        "subTitle": "Home of sustainable travel",
+        "title": "Home of sustainable travel"
+    },
+    "swiperPoster": "photo-1501621965065-c6e1cf6b53e2-lowres.jpg",
+    "swiperImages": [
+        "bisate.jpg",
+        "ocean.jpg",
+        "misool.jpg",
+        "elephants.jpg",
+        "machu.jpg"
+    ],
+    "searchOptions": [
+        {
+            "value": "small",
+            "label": "Accommodation"
+        },
+        {
+            "value": "medium",
+            "label": "Experiences"
+        }
+    ],
+    "topBlocks": {
+        "title": "For the conscious traveler",
+        "subTitle": "High-impact, low-density travel",
+        "blocks": [
+            {
+                "title": "Environmental Friendly",
+                "content": "Find hotels that are committed to the well-being of our planet. Our partner hotels are committed to sustainable environmental practices like no single-use plastic, renewable energy sources, recycling and use of recycled materials and use sustainably sourced food.",
+                "icon": "destination-map-1"
+            },
+            {
+                "title": "Community Championship",
+                "content": "We are committed to support hotels and tour operators that are fully or partially locally owned, hire and educate local communites, support local artisans and businesses. Some of our partners are also actively engaged in supporting local communities through NGOs and foundations.",
+                "icon": "pay-by-card-1"
+            },
+            {
+                "title": "Regenerative Tourism",
+                "content": "On Sustivo, you will find businesses that are actively involved in the regeneration of our planet through ocean cleanups, conservation of forests and marine ecosystems, and, protection of wild animals.",
+                "icon": "heart-1"
+            }
+        ]
+    },
+    "jumbotron": {
+        "title": "Ready for your next holidays?",
+        "button": "Get started",
+        "link": "/category-rooms",
+        "img": "img/photo/photo-1497436072909-60f360e1d4b1.jpg"
+    },
+    
+    "blogPosts": {
+        "title": "From our travel blog",
+        "subTitle": "Stories from around the globe",
+        "button": "See all articles",
+        "buttonLink": "/blog"
+    }
+}

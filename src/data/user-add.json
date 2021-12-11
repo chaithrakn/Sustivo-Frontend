@@ -1,0 +1,287 @@
+[
+  {
+    "title": "Let's get started",
+    "subtitle": "Add a new listing",
+    "button": "Add your listing"
+  },
+  {
+    "title": "Basic information",
+    "subtitle": "Add a new listing",
+    "formBlocks": [
+      {
+        "title": "Basic",
+        "inputs": [
+          {
+            "label": "Business name",
+            "name": "name",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "title": "Location",
+        "inputs": [
+          {
+            "label": "Street Address",
+            "name": "address",
+            "type": "text"
+          },
+          {
+            "label": "City",
+            "name": "city",
+            "type": "text",
+            "col": "6"
+          },
+          {
+            "label": "Country / Region",
+            "name": "country",
+            "type": "text"
+          }
+          
+        ]
+      }
+    ]
+  },
+  { 
+    
+    "formBlocks": [
+      {
+        "title": "Description",
+        "inputs": [
+          {
+            "label": "Describe your place to guests",
+            "name": "description",
+            "type": "textarea",
+            "helpId": "descriptionHelp",
+            "help": "General description of your hotel or tour company"
+          },
+          {
+            "label": "Website",
+            "name": "website",
+            "type": "textarea",
+            "helpId": "websiteHelp"
+          },
+          {
+            "label": "Activies",
+            "name": "activities",
+            "type": "textarea",
+            "helpId": "activityHelp",
+            "help": "What activites do you provide to guests?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Sustainability",
+    "subtitle": "Add a new listing",
+    "formBlocks": [
+      
+      {
+        "content": "Help us understand your sustainability initiatives.",
+        "inputs": [
+          {
+            "type": "checkboxes",
+            "label": "Sustivo Values",
+            "checkboxes": [
+                {
+                    "label": "No single-use plastic",
+                    "id": "values_0",
+                    "name": "values[]"
+                },
+                {
+                    "label": "Waste recycling",
+                    "id": "values_1",
+                    "name": "values[]"
+                },
+                {
+                    "label": "Renewable energy",
+                    "id": "values_2",
+                    "name": "values[]"
+                },
+                {
+                    "label": "Increased energy efficiency",
+                    "id": "values_3",
+                    "name": "values[]"
+                },
+                {
+                    "label": "In-house Organic farm",
+                    "id": "values_4",
+                    "name": "values[]"
+                },
+                {
+                    "label": "Use of sustainably sourced food",
+                    "id": "values_5",
+                    "name": "values[]"
+                },
+                {
+                    "label": "Actively involved in marine conservation",
+                    "id": "values_6",
+                    "name": "values[]"
+                },
+                {
+                    "label": "Actively involved in forest conservation",
+                    "id": "values_7",
+                    "name": "values[]"
+                },
+                {
+                  "label": "Actively involved in wildlife protection",
+                  "id": "values_8",
+                  "name": "values[]"
+              },
+                {
+                    "label": "Actively involved in cleanup activities",
+                    "id": "values_9",
+                    "name": "values[]"
+                },
+                {
+                    "label": "Local-owned",
+                    "id": "values_10",
+                    "name": "values[]"
+                },
+                {
+                    "label": "Supports local NGO",
+                    "id": "values_11",
+                    "name": "values[]"
+                },
+                {
+                    "label": "Involved in local education",
+                    "id": "values_12",
+                    "name": "values[]"
+                },
+                {
+                  "label": "Supports local artisans and businesses",
+                  "id": "values_13",
+                  "name": "values[]"
+                },
+                {
+                  "label": "Derived from natural and cultural elements of the place",
+                  "id": "values_14",
+                  "name": "values[]"
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Certifications",
+    "subtitle": "Add a new listing",
+    "formBlocks": [
+      
+      {
+        "label": "Certifications",
+        "content": "Do you have any sustainability related certifications?",
+        "inputs": [
+          {
+            "type": "checkboxes",
+            "label": "Certifications",
+            "checkboxes": [
+                {
+                    "label": "Earth Check",
+                    "id": "certs_0",
+                    "name": "certs[]"
+                },
+                {
+                    "label": "Green Key",
+                    "id": "certs_1",
+                    "name": "certs[]"
+                },
+                {
+                    "label": "Green Globe",
+                    "id": "certs_2",
+                    "name": "certs[]"
+                },
+                {
+                    "label": "GSTC",
+                    "id": "certs_3",
+                    "name": "certs[]"
+                },
+                {
+                    "label": "TravelLife",
+                    "id": "certs_4",
+                    "name": "certs[]"
+                },
+                {
+                    "label": "Biosphere",
+                    "id": "certs_5",
+                    "name": "certs[]"
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Listing uploaded",
+    "subtitle": "Add a new listing",
+    "content": "Thank you, Ondrej. Your listing has been saved and will be reviewed shortly.",
+    "buttons": [
+        {
+            "title": "Do something",
+            "link": "#"
+        },
+        {
+            "title": "Or something else",
+            "link": "#"
+        }
+    ]
+  },
+  {
+    "title": "Photos",
+    "subtitle": "Add a new listing",
+    "content": "<p class='text-muted'>His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table.</p><p class='text-muted mb-5'>Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</p>",
+    "formBlocks": [
+        {
+            "title": "Photos",
+            "content": "His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table.",
+            "inputs": [
+                {
+                    "type": "upload"
+                }
+            ]
+        }
+    ]
+  },
+  
+  {
+    "title": "Tags",
+    "subtitle": "Add a new listing",
+    "formBlocks": [
+      
+      {
+        "content": "Tags",
+        "inputs": [
+          {
+            "type": "checkboxes",
+            "label": "Tags",
+            "checkboxes": [
+                {
+                    "label": "Environment friendly",
+                    "id": "tags_0",
+                    "name": "tags[]"
+                },
+                {
+                    "label": "Community Champion",
+                    "id": "tags_1",
+                    "name": "tags[]"
+                },
+                {
+                    "label": "Regenerative",
+                    "id": "tags_2",
+                    "name": "tags[]"
+                },
+                {
+                    "label": "Certified Carbon Neutral",
+                    "id": "tags_3",
+                    "name": "tags[]"
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

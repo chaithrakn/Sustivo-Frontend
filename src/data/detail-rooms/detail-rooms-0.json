@@ -1,0 +1,122 @@
+{
+  "name": "Hotel Sol y Luna",
+  "subtitle": "Generates income to support the Sol y Luna Intercultural School",
+  "website": "https://www.hotelsolyluna.com/",
+  "address": "Sacred Valley, Peru",
+  "image": "solyluna.jpg",
+  "latlong": "-13.2962617,-72.1300811",
+  "description": "Our unique property is an intimate 43-casitas hotel within 328,000 square feet of beautiful gardens surrounded by archaeological attractions, and many opportunities of outdoor activities.We have 15 high end luxury casitas like that one which have private terraces and plunge pools overlooking the gardens. Set in the Sacred Valley of the Incas in the province of Urubamba, this refined hotel in a complex of stone and adobe buildings is 3 km from Plaza de Armas, 15 km from the Eye of the Jaguar zipline and 20 km from the Chinchero archaeological site.",
+  "extra" : "Sol y Luna hotel profits as well as the generosity of guests, friends and benefactors, wholly finances the Sol y Luna Association which pursues inclusion and equality through education for the children of the Sacred Valley along with sustainable work opportunities for local families.",
+  "tags": [
+    {
+      "icon": "users",
+      "value": "Environment Friendly"
+    },
+    {
+      "icon": "door-open",
+      "value": "Community Champion"
+    }
+  ],
+  "swiper": [
+    {
+      "img": "photo-1426122402199-be02db90eb90.jpg",
+      "title": "Our street",
+      "alt": "Our street"
+    },
+    {
+      "img": "photo-1512917774080-9991f1c4c750.jpg",
+      "title": "Outside",
+      "alt": "Outside"
+    },
+    {
+      "img": "photo-1494526585095-c41746248156.jpg",
+      "title": "Rear entrance",
+      "alt": "Rear entrance"
+    },
+    {
+      "img": "photo-1484154218962-a197022b5858.jpg",
+      "title": "Kitchen",
+      "alt": "Kitchen"
+    },
+    {
+      "img": "photo-1522771739844-6a9f6d5f14af.jpg",
+      "title": "Bedroom",
+      "alt": "Bedroom"
+    },
+    {
+      "img": "photo-1488805990569-3c9e1d76d51c.jpg",
+      "title": "Bedroom",
+      "alt": "Bedroom"
+    }
+  ],
+
+  "amenities": [
+    {
+      "icon": "wifi",
+      "value": "Wifi"
+    },
+    {
+      "icon": "tv",
+      "value": "Cable TV"
+    },
+    {
+      "icon": "snowflake",
+      "value": "Air conditioning"
+    },
+    {
+      "icon": "thermometer-three-quarters",
+      "value": "Heating"
+    },
+    {
+      "icon": "bath",
+      "value": "Toiletteries"
+    },
+    {
+      "icon": "utensils",
+      "value": "Equipped Kitchen"
+    },
+    {
+      "icon": "laptop",
+      "value": "Desk for work"
+    },
+    {
+      "icon": "tshirt",
+      "value": "Washing machine"
+    }
+  ],
+  "values": [
+    {
+      "icon": "wifi",
+      "value": "No Single Use Plastic"
+    },
+    {
+      "icon": "tv",
+      "value": "Cable TV"
+    },
+    {
+      "icon": "snowflake",
+      "value": "Air conditioning"
+    },
+    {
+      "icon": "thermometer-three-quarters",
+      "value": "Heating"
+    },
+    {
+      "icon": "bath",
+      "value": "Toiletteries"
+    },
+    {
+      "icon": "utensils",
+      "value": "Equipped Kitchen"
+    },
+    {
+      "icon": "laptop",
+      "value": "Desk for work"
+    },
+    {
+      "icon": "tshirt",
+      "value": "Washing machine"
+    }
+  ]
+  
+}
