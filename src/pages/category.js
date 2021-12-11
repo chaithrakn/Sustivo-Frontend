@@ -3,7 +3,7 @@ import Link from "next/link"
 
 import { Container, Row, Col, Nav } from "react-bootstrap"
 
-import CardRestaurant from "../components/CardRestaurant"
+import CardRoom from "../components/CardRoom"
 import ResultsTopBar from "../components/ResultsTopBar"
 import Pagination from "../components/Pagination"
 import Map from "../components/Map"
@@ -68,7 +68,7 @@ const Category = () => {
                   onMouseEnter={() => onCardEnter(place.properties.id)}
                   onMouseLeave={() => onCardLeave()}
                 >
-                  <CardRestaurant
+                  <CardRoom
                     data={place.properties}
                     sizes="(max-width:576px) 100vw, (max-width:991px) 50vw, 420px"
                   />

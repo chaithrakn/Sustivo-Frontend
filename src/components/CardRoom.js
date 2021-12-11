@@ -7,6 +7,7 @@ import Stars from "./Stars"
 import Image from "./CustomImage"
 import Icon from "./Icon"
 import Avatar from "./Avatar"
+import { useState, useEffect } from 'react';
 
 const CardRoom = (props) => {
   const data = props.data

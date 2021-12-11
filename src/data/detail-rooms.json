@@ -1,5 +1,6 @@
 [
   {
+    "index": 0,
     "name": "Hotel Sol y Luna",
     "subtitle": "Generates income to support the Sol y Luna Intercultural School",
     "website": "https://www.hotelsolyluna.com/",
@@ -20,32 +21,32 @@
     ],
     "swiper": [
       {
-        "img": "photo-1426122402199-be02db90eb90.jpg",
+        "img": "solyluna.jpg",
         "title": "Our street",
         "alt": "Our street"
       },
       {
-        "img": "photo-1512917774080-9991f1c4c750.jpg",
+        "img": "solyluna1.jpeg",
         "title": "Outside",
         "alt": "Outside"
       },
       {
-        "img": "photo-1494526585095-c41746248156.jpg",
+        "img": "solyluna2.jpeg",
         "title": "Rear entrance",
         "alt": "Rear entrance"
       },
       {
-        "img": "photo-1484154218962-a197022b5858.jpg",
+        "img": "solyluna3.jpeg",
         "title": "Kitchen",
         "alt": "Kitchen"
       },
       {
-        "img": "photo-1522771739844-6a9f6d5f14af.jpg",
+        "img": "solyluna4.jpeg",
         "title": "Bedroom",
         "alt": "Bedroom"
       },
       {
-        "img": "photo-1488805990569-3c9e1d76d51c.jpg",
+        "img": "solyluna5.jpeg",
         "title": "Bedroom",
         "alt": "Bedroom"
       }
@@ -115,6 +116,7 @@
   }, 
 
   {
+    "index": 1,
     "name": "Awasi Patagonia",
     "subtitle": "Generates income to support the Sol y Luna Intercultural School",
     "website": "https://awasipatagonia.com/about/",
@@ -134,33 +136,29 @@
       }
     ],
     "swiper": [
+      
       {
-        "img": "photo-1426122402199-be02db90eb90.jpg",
-        "title": "Our street",
-        "alt": "Our street"
-      },
-      {
-        "img": "photo-1512917774080-9991f1c4c750.jpg",
+        "img": "awasi.jpeg",
         "title": "Outside",
         "alt": "Outside"
       },
       {
-        "img": "photo-1494526585095-c41746248156.jpg",
+        "img": "awasi1.jpeg",
         "title": "Rear entrance",
         "alt": "Rear entrance"
       },
       {
-        "img": "photo-1484154218962-a197022b5858.jpg",
+        "img": "awasi2.jpeg",
         "title": "Kitchen",
         "alt": "Kitchen"
       },
       {
-        "img": "photo-1522771739844-6a9f6d5f14af.jpg",
+        "img": "awasi3.jpeg",
         "title": "Bedroom",
         "alt": "Bedroom"
       },
       {
-        "img": "photo-1488805990569-3c9e1d76d51c.jpg",
+        "img": "awasi4.jpeg",
         "title": "Bedroom",
         "alt": "Bedroom"
       }
@@ -220,6 +218,912 @@
       {
         "icon": "thermometer-three-quarters",
         "value": "Actively involved in forest conservation"
+      }
+    ]
+    
+  },
+
+  {
+    "index": 2,
+    "name": "Conscious Hotels",
+        "subtitle": "Sustainable & smart eco-design hotels",
+        "website": "https://www.conscioushotels.com/",
+        "address": "Amsterdam, Netherlands",
+    "latlong": "-13.2962617,-72.1300811",
+    "image": "conscious.jpeg",
+    "description" : "Looking for an eco-hotel in Amsterdam? We have four sustainable hotels in Amsterdam, located at green locations close to the city centre. Sights, museums and famous areas like the Jordaan and the Red Light District can be reached by public transport or by bike within no time. Unwind in your comfortable hotel room after a day of wandering around in the Amsterdam city centre and the nice surrounding neighbourhoods.",
+    "extra": "All our hotels have the Green Key Gold, which is the largest sustainability mark for the tourism and leisure industry in the Netherlands.",
+        "tags": [
+      {
+        "icon": "users",
+        "value": "Environment Friendly"
+      }
+      
+    ],
+    "swiper": [
+      {
+        "img": "conscious.jpeg",
+        "title": "Our street",
+        "alt": "Our street"
+      },
+      {
+        "img": "conscious1.jpeg",
+        "title": "Outside",
+        "alt": "Outside"
+      },
+      {
+        "img": "conscious2.jpeg",
+        "title": "Rear entrance",
+        "alt": "Rear entrance"
+      },
+      {
+        "img": "conscious3.jpeg",
+        "title": "Kitchen",
+        "alt": "Kitchen"
+      }
+    ],
+  
+    "amenities": [
+      {
+        "icon": "wifi",
+        "value": "Wifi"
+      },
+      {
+        "icon": "tv",
+        "value": "Cable TV"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Air conditioning"
+      },
+      {
+        "icon": "thermometer-three-quarters",
+        "value": "Heating"
+      },
+      {
+        "icon": "bath",
+        "value": "Toiletteries"
+      },
+      {
+        "icon": "utensils",
+        "value": "Equipped Kitchen"
+      },
+      {
+        "icon": "laptop",
+        "value": "Desk for work"
+      },
+      {
+        "icon": "tshirt",
+        "value": "Washing machine"
+      }
+    ],
+    "values": [
+      {
+        "icon": "wifi",
+        "value": "No Single Use Plastic"
+      },
+      {
+        "icon": "wifi",
+        "value": "Waste Recycling"
+      },
+      {
+        "icon": "tv",
+        "value": "In-house organic farm"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Use of sustainably sourced food"
+      }
+    ]
+    
+  },
+
+  {
+    "index": 3,
+    "name": "Posada Amazonas",
+        "subtitle": "Eseeja de Infierno Native Community directly receives 75% of the profits that the business generates",
+        "website": "https://www.rainforestexpeditions.com/amazon-lodge/posada-amazonas/",
+        "address": "Madre de Dios, Peru",
+    "latlong": "-13.2962617,-72.1300811",
+    "description" : "Within the pristine Amazon Rainforest, our Posada Amazonas lodge connects you to the natural and cultural wonders of the Tambopata jungle. When researching for a hotel in Puerto Maldonado, this jungle ecolodge offers a unique set of activities with ample opportunities to observe wildlife and to discover ancient indigenous heritage where you can choose letting create your own personal adventure. Our 42 meter (137 foot) Canopy Tower offers spectacular views of the vast expanses of rainforest around the lodge.",
+    "extra": "Posada Amazonas is owned by the Ese Eja indigenous community of nearby Infierno, Peru, and managed in partnership with Rainforest Expeditions. ",
+        "tags": [
+      {
+        "icon": "users",
+        "value": "Environment Friendly"
+      },
+      {
+        "icon": "users",
+        "value": "Community Champion"
+      },
+      {
+        "icon": "users",
+        "value": "Regenerative Tourism"
+      }
+      
+    ],
+    "swiper": [
+      {
+        "img": "posada.jpeg",
+        "title": "Our street",
+        "alt": "Our street"
+      },
+      {
+        "img": "posada1.jpeg",
+        "title": "Outside",
+        "alt": "Outside"
+      },
+      {
+        "img": "posada2.jpeg",
+        "title": "Rear entrance",
+        "alt": "Rear entrance"
+      },
+      {
+        "img": "posada3.jpeg",
+        "title": "Kitchen",
+        "alt": "Kitchen"
+      }
+    ],
+  
+    "amenities": [
+      {
+        "icon": "wifi",
+        "value": "Wifi"
+      },
+      {
+        "icon": "tv",
+        "value": "Cable TV"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Air conditioning"
+      },
+      {
+        "icon": "thermometer-three-quarters",
+        "value": "Heating"
+      },
+      {
+        "icon": "bath",
+        "value": "Toiletteries"
+      },
+      {
+        "icon": "utensils",
+        "value": "Equipped Kitchen"
+      },
+      {
+        "icon": "laptop",
+        "value": "Desk for work"
+      },
+      {
+        "icon": "tshirt",
+        "value": "Washing machine"
+      }
+    ],
+    "values": [
+      {
+        "icon": "wifi",
+        "value": "No Single Use Plastic"
+      },
+      {
+        "icon": "wifi",
+        "value": "Waste Recycling"
+      },
+      {
+        "icon": "tv",
+        "value": "In-house organic farm"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Use of sustainably sourced food"
+      }
+    ]
+    
+  },
+
+  {
+    "index": 4,
+    "name": "Eden Lodge Paris",
+        "subtitle": "Green and glamorous, in the heart of Paris",
+        "website": "https://www.edenlodgeparis.net/en/eco-luxury/",
+        "address": "Paris, France",
+    "latlong": "-13.2962617,-72.1300811",
+    "description" : "Within the pristine Amazon Rainforest, our Posada Amazonas lodge connects you to the natural and cultural wonders of the Tambopata jungle. When researching for a hotel in Puerto Maldonado, this jungle ecolodge offers a unique set of activities with ample opportunities to observe wildlife and to discover ancient indigenous heritage where you can choose letting create your own personal adventure. Our 42 meter (137 foot) Canopy Tower offers spectacular views of the vast expanses of rainforest around the lodge.",
+    "extra": "Posada Amazonas is owned by the Ese Eja indigenous community of nearby Infierno, Peru, and managed in partnership with Rainforest Expeditions. ",
+        "tags": [
+      {
+        "icon": "users",
+        "value": "Environment Friendly"
+      },
+      {
+        "icon": "users",
+        "value": "Community Champion"
+      },
+      {
+        "icon": "users",
+        "value": "Regenerative Tourism"
+      }
+      
+    ],
+    "swiper": [
+      {
+        "img": "posada.jpeg",
+        "title": "Our street",
+        "alt": "Our street"
+      },
+      {
+        "img": "posada1.jpeg",
+        "title": "Outside",
+        "alt": "Outside"
+      },
+      {
+        "img": "posada2.jpeg",
+        "title": "Rear entrance",
+        "alt": "Rear entrance"
+      },
+      {
+        "img": "posada3.jpeg",
+        "title": "Kitchen",
+        "alt": "Kitchen"
+      }
+    ],
+  
+    "amenities": [
+      {
+        "icon": "wifi",
+        "value": "Wifi"
+      },
+      {
+        "icon": "tv",
+        "value": "Cable TV"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Air conditioning"
+      },
+      {
+        "icon": "thermometer-three-quarters",
+        "value": "Heating"
+      },
+      {
+        "icon": "bath",
+        "value": "Toiletteries"
+      },
+      {
+        "icon": "utensils",
+        "value": "Equipped Kitchen"
+      },
+      {
+        "icon": "laptop",
+        "value": "Desk for work"
+      },
+      {
+        "icon": "tshirt",
+        "value": "Washing machine"
+      }
+    ],
+    "values": [
+      {
+        "icon": "wifi",
+        "value": "No Single Use Plastic"
+      },
+      {
+        "icon": "wifi",
+        "value": "Waste Recycling"
+      },
+      {
+        "icon": "tv",
+        "value": "In-house organic farm"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Use of sustainably sourced food"
+      }
+    ]
+    
+  },
+
+  {
+    "index": 5,
+    "name": "Three Camel Lodge",
+        "subtitle": "Green and glamorous, in the heart of Paris",
+        "website": "https://www.edenlodgeparis.net/en/eco-luxury/",
+        "address": "Paris, France",
+    "latlong": "-13.2962617,-72.1300811",
+    "description" : "Within the pristine Amazon Rainforest, our Posada Amazonas lodge connects you to the natural and cultural wonders of the Tambopata jungle. When researching for a hotel in Puerto Maldonado, this jungle ecolodge offers a unique set of activities with ample opportunities to observe wildlife and to discover ancient indigenous heritage where you can choose letting create your own personal adventure. Our 42 meter (137 foot) Canopy Tower offers spectacular views of the vast expanses of rainforest around the lodge.",
+    "extra": "Posada Amazonas is owned by the Ese Eja indigenous community of nearby Infierno, Peru, and managed in partnership with Rainforest Expeditions. ",
+        "tags": [
+      {
+        "icon": "users",
+        "value": "Environment Friendly"
+      },
+      {
+        "icon": "users",
+        "value": "Community Champion"
+      },
+      {
+        "icon": "users",
+        "value": "Regenerative Tourism"
+      }
+      
+    ],
+    "swiper": [
+      {
+        "img": "posada.jpeg",
+        "title": "Our street",
+        "alt": "Our street"
+      },
+      {
+        "img": "posada1.jpeg",
+        "title": "Outside",
+        "alt": "Outside"
+      },
+      {
+        "img": "posada2.jpeg",
+        "title": "Rear entrance",
+        "alt": "Rear entrance"
+      },
+      {
+        "img": "posada3.jpeg",
+        "title": "Kitchen",
+        "alt": "Kitchen"
+      }
+    ],
+  
+    "amenities": [
+      {
+        "icon": "wifi",
+        "value": "Wifi"
+      },
+      {
+        "icon": "tv",
+        "value": "Cable TV"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Air conditioning"
+      },
+      {
+        "icon": "thermometer-three-quarters",
+        "value": "Heating"
+      },
+      {
+        "icon": "bath",
+        "value": "Toiletteries"
+      },
+      {
+        "icon": "utensils",
+        "value": "Equipped Kitchen"
+      },
+      {
+        "icon": "laptop",
+        "value": "Desk for work"
+      },
+      {
+        "icon": "tshirt",
+        "value": "Washing machine"
+      }
+    ],
+    "values": [
+      {
+        "icon": "wifi",
+        "value": "No Single Use Plastic"
+      },
+      {
+        "icon": "wifi",
+        "value": "Waste Recycling"
+      },
+      {
+        "icon": "tv",
+        "value": "In-house organic farm"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Use of sustainably sourced food"
+      }
+    ]
+    
+  },
+  {
+    "index": 6,
+    "name": "White Pod",
+        "subtitle": "Green and glamorous, in the heart of Paris",
+        "website": "https://www.edenlodgeparis.net/en/eco-luxury/",
+        "address": "Paris, France",
+    "latlong": "-13.2962617,-72.1300811",
+    "description" : "Within the pristine Amazon Rainforest, our Posada Amazonas lodge connects you to the natural and cultural wonders of the Tambopata jungle. When researching for a hotel in Puerto Maldonado, this jungle ecolodge offers a unique set of activities with ample opportunities to observe wildlife and to discover ancient indigenous heritage where you can choose letting create your own personal adventure. Our 42 meter (137 foot) Canopy Tower offers spectacular views of the vast expanses of rainforest around the lodge.",
+    "extra": "Posada Amazonas is owned by the Ese Eja indigenous community of nearby Infierno, Peru, and managed in partnership with Rainforest Expeditions. ",
+        "tags": [
+      {
+        "icon": "users",
+        "value": "Environment Friendly"
+      },
+      {
+        "icon": "users",
+        "value": "Community Champion"
+      },
+      {
+        "icon": "users",
+        "value": "Regenerative Tourism"
+      }
+      
+    ],
+    "swiper": [
+      {
+        "img": "posada.jpeg",
+        "title": "Our street",
+        "alt": "Our street"
+      },
+      {
+        "img": "posada1.jpeg",
+        "title": "Outside",
+        "alt": "Outside"
+      },
+      {
+        "img": "posada2.jpeg",
+        "title": "Rear entrance",
+        "alt": "Rear entrance"
+      },
+      {
+        "img": "posada3.jpeg",
+        "title": "Kitchen",
+        "alt": "Kitchen"
+      }
+    ],
+  
+    "amenities": [
+      {
+        "icon": "wifi",
+        "value": "Wifi"
+      },
+      {
+        "icon": "tv",
+        "value": "Cable TV"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Air conditioning"
+      },
+      {
+        "icon": "thermometer-three-quarters",
+        "value": "Heating"
+      },
+      {
+        "icon": "bath",
+        "value": "Toiletteries"
+      },
+      {
+        "icon": "utensils",
+        "value": "Equipped Kitchen"
+      },
+      {
+        "icon": "laptop",
+        "value": "Desk for work"
+      },
+      {
+        "icon": "tshirt",
+        "value": "Washing machine"
+      }
+    ],
+    "values": [
+      {
+        "icon": "wifi",
+        "value": "No Single Use Plastic"
+      },
+      {
+        "icon": "wifi",
+        "value": "Waste Recycling"
+      },
+      {
+        "icon": "tv",
+        "value": "In-house organic farm"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Use of sustainably sourced food"
+      }
+    ]
+    
+  },
+  {
+    "index": 7,
+    "name": "Tiger Mountain Pokhara",
+        "subtitle": "Green and glamorous, in the heart of Paris",
+        "website": "https://www.edenlodgeparis.net/en/eco-luxury/",
+        "address": "Paris, France",
+    "latlong": "-13.2962617,-72.1300811",
+    "description" : "Within the pristine Amazon Rainforest, our Posada Amazonas lodge connects you to the natural and cultural wonders of the Tambopata jungle. When researching for a hotel in Puerto Maldonado, this jungle ecolodge offers a unique set of activities with ample opportunities to observe wildlife and to discover ancient indigenous heritage where you can choose letting create your own personal adventure. Our 42 meter (137 foot) Canopy Tower offers spectacular views of the vast expanses of rainforest around the lodge.",
+    "extra": "Posada Amazonas is owned by the Ese Eja indigenous community of nearby Infierno, Peru, and managed in partnership with Rainforest Expeditions. ",
+        "tags": [
+      {
+        "icon": "users",
+        "value": "Environment Friendly"
+      },
+      {
+        "icon": "users",
+        "value": "Community Champion"
+      },
+      {
+        "icon": "users",
+        "value": "Regenerative Tourism"
+      }
+      
+    ],
+    "swiper": [
+      {
+        "img": "posada.jpeg",
+        "title": "Our street",
+        "alt": "Our street"
+      },
+      {
+        "img": "posada1.jpeg",
+        "title": "Outside",
+        "alt": "Outside"
+      },
+      {
+        "img": "posada2.jpeg",
+        "title": "Rear entrance",
+        "alt": "Rear entrance"
+      },
+      {
+        "img": "posada3.jpeg",
+        "title": "Kitchen",
+        "alt": "Kitchen"
+      }
+    ],
+  
+    "amenities": [
+      {
+        "icon": "wifi",
+        "value": "Wifi"
+      },
+      {
+        "icon": "tv",
+        "value": "Cable TV"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Air conditioning"
+      },
+      {
+        "icon": "thermometer-three-quarters",
+        "value": "Heating"
+      },
+      {
+        "icon": "bath",
+        "value": "Toiletteries"
+      },
+      {
+        "icon": "utensils",
+        "value": "Equipped Kitchen"
+      },
+      {
+        "icon": "laptop",
+        "value": "Desk for work"
+      },
+      {
+        "icon": "tshirt",
+        "value": "Washing machine"
+      }
+    ],
+    "values": [
+      {
+        "icon": "wifi",
+        "value": "No Single Use Plastic"
+      },
+      {
+        "icon": "wifi",
+        "value": "Waste Recycling"
+      },
+      {
+        "icon": "tv",
+        "value": "In-house organic farm"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Use of sustainably sourced food"
+      }
+    ]
+    
+  },
+  {
+    "index": 8,
+    "name": "Misool",
+        "subtitle": "Green and glamorous, in the heart of Paris",
+        "website": "https://www.edenlodgeparis.net/en/eco-luxury/",
+        "address": "Paris, France",
+    "latlong": "-13.2962617,-72.1300811",
+    "description" : "Within the pristine Amazon Rainforest, our Posada Amazonas lodge connects you to the natural and cultural wonders of the Tambopata jungle. When researching for a hotel in Puerto Maldonado, this jungle ecolodge offers a unique set of activities with ample opportunities to observe wildlife and to discover ancient indigenous heritage where you can choose letting create your own personal adventure. Our 42 meter (137 foot) Canopy Tower offers spectacular views of the vast expanses of rainforest around the lodge.",
+    "extra": "Posada Amazonas is owned by the Ese Eja indigenous community of nearby Infierno, Peru, and managed in partnership with Rainforest Expeditions. ",
+        "tags": [
+      {
+        "icon": "users",
+        "value": "Environment Friendly"
+      },
+      {
+        "icon": "users",
+        "value": "Community Champion"
+      },
+      {
+        "icon": "users",
+        "value": "Regenerative Tourism"
+      }
+      
+    ],
+    "swiper": [
+      {
+        "img": "posada.jpeg",
+        "title": "Our street",
+        "alt": "Our street"
+      },
+      {
+        "img": "posada1.jpeg",
+        "title": "Outside",
+        "alt": "Outside"
+      },
+      {
+        "img": "posada2.jpeg",
+        "title": "Rear entrance",
+        "alt": "Rear entrance"
+      },
+      {
+        "img": "posada3.jpeg",
+        "title": "Kitchen",
+        "alt": "Kitchen"
+      }
+    ],
+  
+    "amenities": [
+      {
+        "icon": "wifi",
+        "value": "Wifi"
+      },
+      {
+        "icon": "tv",
+        "value": "Cable TV"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Air conditioning"
+      },
+      {
+        "icon": "thermometer-three-quarters",
+        "value": "Heating"
+      },
+      {
+        "icon": "bath",
+        "value": "Toiletteries"
+      },
+      {
+        "icon": "utensils",
+        "value": "Equipped Kitchen"
+      },
+      {
+        "icon": "laptop",
+        "value": "Desk for work"
+      },
+      {
+        "icon": "tshirt",
+        "value": "Washing machine"
+      }
+    ],
+    "values": [
+      {
+        "icon": "wifi",
+        "value": "No Single Use Plastic"
+      },
+      {
+        "icon": "wifi",
+        "value": "Waste Recycling"
+      },
+      {
+        "icon": "tv",
+        "value": "In-house organic farm"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Use of sustainably sourced food"
+      }
+    ]
+    
+  },
+  {
+    "index": 9,
+    "name": "Lapas Rios",
+        "subtitle": "Green and glamorous, in the heart of Paris",
+        "website": "https://www.edenlodgeparis.net/en/eco-luxury/",
+        "address": "Paris, France",
+    "latlong": "-13.2962617,-72.1300811",
+    "description" : "Within the pristine Amazon Rainforest, our Posada Amazonas lodge connects you to the natural and cultural wonders of the Tambopata jungle. When researching for a hotel in Puerto Maldonado, this jungle ecolodge offers a unique set of activities with ample opportunities to observe wildlife and to discover ancient indigenous heritage where you can choose letting create your own personal adventure. Our 42 meter (137 foot) Canopy Tower offers spectacular views of the vast expanses of rainforest around the lodge.",
+    "extra": "Posada Amazonas is owned by the Ese Eja indigenous community of nearby Infierno, Peru, and managed in partnership with Rainforest Expeditions. ",
+        "tags": [
+      {
+        "icon": "users",
+        "value": "Environment Friendly"
+      },
+      {
+        "icon": "users",
+        "value": "Community Champion"
+      },
+      {
+        "icon": "users",
+        "value": "Regenerative Tourism"
+      }
+      
+    ],
+    "swiper": [
+      {
+        "img": "posada.jpeg",
+        "title": "Our street",
+        "alt": "Our street"
+      },
+      {
+        "img": "posada1.jpeg",
+        "title": "Outside",
+        "alt": "Outside"
+      },
+      {
+        "img": "posada2.jpeg",
+        "title": "Rear entrance",
+        "alt": "Rear entrance"
+      },
+      {
+        "img": "posada3.jpeg",
+        "title": "Kitchen",
+        "alt": "Kitchen"
+      }
+    ],
+  
+    "amenities": [
+      {
+        "icon": "wifi",
+        "value": "Wifi"
+      },
+      {
+        "icon": "tv",
+        "value": "Cable TV"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Air conditioning"
+      },
+      {
+        "icon": "thermometer-three-quarters",
+        "value": "Heating"
+      },
+      {
+        "icon": "bath",
+        "value": "Toiletteries"
+      },
+      {
+        "icon": "utensils",
+        "value": "Equipped Kitchen"
+      },
+      {
+        "icon": "laptop",
+        "value": "Desk for work"
+      },
+      {
+        "icon": "tshirt",
+        "value": "Washing machine"
+      }
+    ],
+    "values": [
+      {
+        "icon": "wifi",
+        "value": "No Single Use Plastic"
+      },
+      {
+        "icon": "wifi",
+        "value": "Waste Recycling"
+      },
+      {
+        "icon": "tv",
+        "value": "In-house organic farm"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Use of sustainably sourced food"
+      }
+    ]
+    
+  },
+  {
+    "index":10,
+    "name": "Lapa Rios",
+        "subtitle": "Green and glamorous, in the heart of Paris",
+        "website": "https://www.edenlodgeparis.net/en/eco-luxury/",
+        "address": "Paris, France",
+    "latlong": "-13.2962617,-72.1300811",
+    "description" : "Within the pristine Amazon Rainforest, our Posada Amazonas lodge connects you to the natural and cultural wonders of the Tambopata jungle. When researching for a hotel in Puerto Maldonado, this jungle ecolodge offers a unique set of activities with ample opportunities to observe wildlife and to discover ancient indigenous heritage where you can choose letting create your own personal adventure. Our 42 meter (137 foot) Canopy Tower offers spectacular views of the vast expanses of rainforest around the lodge.",
+    "extra": "Posada Amazonas is owned by the Ese Eja indigenous community of nearby Infierno, Peru, and managed in partnership with Rainforest Expeditions. ",
+        "tags": [
+      {
+        "icon": "users",
+        "value": "Environment Friendly"
+      },
+      {
+        "icon": "users",
+        "value": "Community Champion"
+      },
+      {
+        "icon": "users",
+        "value": "Regenerative Tourism"
+      }
+      
+    ],
+    "swiper": [
+      {
+        "img": "posada.jpeg",
+        "title": "Our street",
+        "alt": "Our street"
+      },
+      {
+        "img": "posada1.jpeg",
+        "title": "Outside",
+        "alt": "Outside"
+      },
+      {
+        "img": "posada2.jpeg",
+        "title": "Rear entrance",
+        "alt": "Rear entrance"
+      },
+      {
+        "img": "posada3.jpeg",
+        "title": "Kitchen",
+        "alt": "Kitchen"
+      }
+    ],
+  
+    "amenities": [
+      {
+        "icon": "wifi",
+        "value": "Wifi"
+      },
+      {
+        "icon": "tv",
+        "value": "Cable TV"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Air conditioning"
+      },
+      {
+        "icon": "thermometer-three-quarters",
+        "value": "Heating"
+      },
+      {
+        "icon": "bath",
+        "value": "Toiletteries"
+      },
+      {
+        "icon": "utensils",
+        "value": "Equipped Kitchen"
+      },
+      {
+        "icon": "laptop",
+        "value": "Desk for work"
+      },
+      {
+        "icon": "tshirt",
+        "value": "Washing machine"
+      }
+    ],
+    "values": [
+      {
+        "icon": "wifi",
+        "value": "No Single Use Plastic"
+      },
+      {
+        "icon": "wifi",
+        "value": "Waste Recycling"
+      },
+      {
+        "icon": "tv",
+        "value": "In-house organic farm"
+      },
+      {
+        "icon": "snowflake",
+        "value": "Use of sustainably sourced food"
       }
     ]
     

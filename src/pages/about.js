@@ -37,7 +37,7 @@ const Text = () => {
         <Container className="overlay-content">
           
           <h1 className="hero-heading">{data.title && data.title}</h1>
-          <h6 className="hero-heading">{data.subtitle && data.subtitle}</h6>
+          <h5 className="hero-heading">{data.subtitle && data.subtitle}</h5>
         </Container>
       </section>
       <section className="py-6">
@@ -50,7 +50,17 @@ const Text = () => {
               />
             </Col>
           </Row>
-          {data.img && (
+          {data.content && (
+            <Row>
+              <Col xl="8" lg="10" className="mx-auto">
+                <div
+                  className="lead mb-5"
+                  dangerouslySetInnerHTML={{ __html: data.content }}
+                />
+              </Col>
+            </Row>
+          )}
+          {/* {data.img && (
             <Row>
               <Col xl="10" className="mx-auto mb-5">
                 <Image
@@ -64,17 +74,8 @@ const Text = () => {
                 />
               </Col>
             </Row>
-          )}
-          {data.content && (
-            <Row>
-              <Col xl="8" lg="10" className="mx-auto">
-                <div
-                  className="text-content"
-                  dangerouslySetInnerHTML={{ __html: data.content }}
-                />
-              </Col>
-            </Row>
-          )}
+          )} */}
+         
         </Container>
       </section>
     </React.Fragment>

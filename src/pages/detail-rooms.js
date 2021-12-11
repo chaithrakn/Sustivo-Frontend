@@ -13,14 +13,15 @@ import Swiper from "../components/Swiper"
 import Reviews from "../components/Reviews"
 import ReviewForm from "../components/ReviewForm"
 
-import { useLocation } from 'react-router';
-import queryString from 'query-string';
 import details from "../data/detail-rooms.json"
 
 import SwiperGallery from "../components/SwiperGallery"
 import Gallery from "../components/Gallery"
 import Map from "../components/Map"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+import { useState, useEffect } from 'react';
+
 import {
   faBath,
   faBed,
@@ -55,15 +56,20 @@ export async function getStaticProps() {
 }
 
 const DetailRooms = () => {
-  const router = useRouter()
-  const { q } = router.query;
-  const index = router.isReady ? router.query.index :0
-  console.log(index)
-  //console.log(router.query.index)
+  const router = useRouter();
+  useEffect(()=>{
+    if(!router.isReady) {
+      return <span>Loading...</span>;
+      
+    }  
+    
+    // codes using router.query
 
-  //const data = require('../data/detail-rooms/' + router.query.index )
+}, [router.isReady]);
+
+  var index = router.query ? router.query.index : 0
   const data = details[index]
-  console.log(data)
+  // console.log(data)
   
   const size = UseWindowSize()
   const [range, setRange] = React.useState([
@@ -153,7 +159,7 @@ const DetailRooms = () => {
                     {data.values.map((val) => {
                     
                       return (
-                        <li key={val.value} className="list-inline-item me-3">
+                        <li key={val.value} className=" me-3">
                           <FontAwesomeIcon
                             //icon={tagIcon}
                             className="me-1 text-secondary"
