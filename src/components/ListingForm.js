@@ -15,7 +15,7 @@ import {
 
 import { useState, useContext } from 'react';
 
-import { sendHotel } from "../hooks/hotels"
+//import { sendHotel } from "../hooks/hotels"
 
 
 const ListingForm = (props) => {
@@ -59,13 +59,13 @@ const ListingForm = (props) => {
     setFormInputs({ ...formInputs, [name]: value + 1 })
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    //console.log(formInputs);
-    // ... submit to API or something
-    sendHotel(formInputs); 
-    //window.open("/user-add-5");
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault()
+  //   //console.log(formInputs);
+  //   // ... submit to API or something
+  //   sendHotel(formInputs); 
+  //   //window.open("/user-add-5");
+  // };
 
   return (
     <Form class="needs-validation" action="/hotels" method="POST" novalidate>
@@ -283,7 +283,7 @@ const ListingForm = (props) => {
           )}
           {props.finish && (
             <Link href={props.finish} passHref>
-              <Button className="px-3" onClick={handleSubmit}>
+              <Button className="px-3">
                 Finish
                 <FontAwesomeIcon icon={faChevronRight} className="ms-2" />
               </Button>

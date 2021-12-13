@@ -33,14 +33,12 @@ const Category = () => {
     setHoverCard(null)
   }
 
-  //console.log(geoJSON)
-
   return (
     <React.Fragment>
       <section>
         <div className="map-wrapper-450">
           <Map
-            center={[51.505, -0.09]}
+            //center={[0, 0]}
             className="h-100"
             zoom={14}
             geoJSON={geoJSON}

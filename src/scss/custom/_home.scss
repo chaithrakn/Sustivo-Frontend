@@ -35,10 +35,25 @@
     background: #fff;
     box-shadow: $box-shadow;
     align-self: center;
+    //width: 400px;
+    box-sizing: border-box;
+
+    .form {
+        flex: 1;
+        display: flex;
+        position: relative;
+        justify-content: center;
+      }
+    // form {
+    //     display:flex;
+    //     justify-content: center;
+    //   }
 
     .form-group {
         position: relative;
         margin-bottom: 0;
+        display: flex;
+        justify-content: center;
         
 
         &::after {

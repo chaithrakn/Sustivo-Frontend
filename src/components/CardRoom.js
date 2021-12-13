@@ -51,6 +51,7 @@ const CardRoom = (props) => {
       <Card.Body className="d-flex align-items-center">
         <div className="w-100">
           <Card.Title as="h4">
+          {data.name}
             {/* <Link href={{ pathname: '/detail-rooms', query: {index: data.index}}} >
               <a className="text-decoration-none text-dark">{data.name}</a>
             </Link> */}

@@ -4,15 +4,18 @@
     "link": "/"
   },
   {
-    "title": "About Us",
-    "link": "/about"
+    "title": "Hotels",
+    "link": "/category"
   },
+  
   {
     "title": "Blog",
     "link": "/blog"
   },
-  
-        
+  {
+    "title": "About Us",
+    "link": "/about"
+  },      
   {
     "title": "Contact",
     "link": "/contact"

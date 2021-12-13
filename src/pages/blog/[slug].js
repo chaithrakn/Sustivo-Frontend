@@ -28,6 +28,14 @@ export function getPostData(slug) {
   }
 }
 
+export function getPostDetails(slug) {
+  for (var i = 0; i < postDummyData.posts.length; i++) {
+    if (postDummyData.posts[i].slug == slug) {
+      return postDummyData.posts[i]
+    }
+  }
+}
+
 export async function getStaticPaths() {
   return {
     paths: getAllPostIds(),
@@ -37,6 +45,8 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const postData = getPostData(params.slug)
+  const postDetails = getPostDetails(params.slug)
+  
   return {
     props: {
       nav: {
@@ -46,12 +56,13 @@ export async function getStaticProps({ params }) {
       },
       title: postData.title,
       postData,
+      postDetails,
     },
   }
 }
-const Product = ({ postData }) => {
+const Product = ({ postData, postDetails}) => {
   const [formCollapse, setFormCollapse] = React.useState(false)
-
+  
   return (
     <React.Fragment>
       <section className="hero-home dark-overlay mb-5">
@@ -78,36 +89,9 @@ const Product = ({ postData }) => {
           <Row>
             <Col lg="10" xl="8" className="mx-auto">
               <p className="py-3 mb-5 text-muted text-center fw-light d-flex align-items-center justify-content-center flex-wrap">
-                {postDummyData.authorLink && (
-                  <Link href={postDummyData.authorLink}>
-                    <a>
-                      <Avatar
-                        image={`/content/img/avatar/${postDummyData.authorAvatar}`}
-                        alt=""
-                        className="me-2"
-                        border
-                      />
-                    </a>
-                  </Link>
-                )}
-                Written by&nbsp;
-                {postDummyData.authorLink && (
-                  <Link href={postDummyData.authorLink}>
-                    <a className="fw-bold">{postDummyData.author}</a>
-                  </Link>
-                )}
-                <span className="mx-1">|</span>{" "}
-                {postDummyData.date && postDummyData.date} in&nbsp;
-                {postDummyData.categoryLink && (
-                  <Link href={postDummyData.categoryLink}>
-                    <a className="fw-bold">{postDummyData.category}</a>
-                  </Link>
-                )}
-                <span className="mx-1">|</span>
-                <a href="#" className="text-muted">
-                  {postDummyData.comments && postDummyData.comments.length}{" "}
-                  comments{" "}
-                </a>
+                
+                Written by&nbsp; {postDetails.author}
+                
               </p>
               <p
                 className="lead mb-5"
@@ -132,7 +116,7 @@ const Product = ({ postData }) => {
             <Col xl="8" lg="10" className="mx-auto">
               <div className="text-content">
                 <div
-                  dangerouslySetInnerHTML={{ __html: postDummyData.content }}
+                  dangerouslySetInnerHTML={{ __html: postDetails.content }}
                 />
                 <hr />
               </div>
