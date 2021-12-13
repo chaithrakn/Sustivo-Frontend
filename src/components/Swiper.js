@@ -1,6 +1,8 @@
 import React from "react"
 
 import CardRoom from "./CardRoom"
+import CardRestaurant from "./CardRestaurant"
+import CardPoster from "./CardPoster"
 import CardExp from "./CardExp"
 import CardProperty from "./CardProperty"
 import { Navigation, Pagination, Autoplay, EffectFade } from "swiper"

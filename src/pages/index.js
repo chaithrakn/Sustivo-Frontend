@@ -105,27 +105,6 @@ const Index = () => {
       
       <Experiences greyBackground/>
 
-      {data.jumbotron && (
-        <section className="py-7 position-relative dark-overlay">
-          <Image
-            src={`/content/${data.jumbotron.img}`}
-            alt=""
-            className="bg-image"
-            layout="fill"
-          />
-          <Container>
-            <div className="overlay-content text-white py-lg-5">
-              <h3 className="display-3 fw-bold text-serif text-shadow mb-5">
-                {data.jumbotron.title}
-              </h3>
-              <Link href={data.jumbotron.link} passHref>
-                <Button variant="light">Get started</Button>
-              </Link>
-            </div>
-          </Container>
-        </section>
-      )}  
-
       {blog.posts && (
         <section className="py-6 bg-gray-100">
           <Container>
@@ -169,6 +148,27 @@ const Index = () => {
           </Container>
         </section>
       )}
+
+      {data.jumbotron && (
+        <section className="py-7 position-relative dark-overlay">
+          <Image
+            src={`/content/${data.jumbotron.img}`}
+            alt=""
+            className="bg-image"
+            layout="fill"
+          />
+          <Container>
+            <div className="overlay-content text-white py-lg-5">
+              <h3 className="display-3 fw-bold text-serif text-shadow mb-5">
+                {data.jumbotron.title}
+              </h3>
+              <Link href={data.jumbotron.link} passHref>
+                <Button variant="light">Get started</Button>
+              </Link>
+            </div>
+          </Container>
+        </section>
+      )}  
 
       <Instagram />
     </React.Fragment>
