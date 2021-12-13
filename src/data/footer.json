@@ -1,7 +1,7 @@
 [
     {
-        "title": "Directory",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+        "title": "Sustivo",
+        "content": "Home of sustainable travel",
         "social": [
             {
                 "title": "twitter",
@@ -26,55 +26,11 @@
         ],
         "lg": "4"
     },
-    {
-        "title": "Rentals",
-        "links": [
-            {
-                "title": "Rooms",
-                "link": "/"
-            },
-            {
-                "title": "Map on top",
-                "link": "/category-rooms"
-            },
-            {
-                "title": "Side map",
-                "link": "/category-2-rooms"
-            },
-            {
-                "title": "No map",
-                "link": "/category-3-rooms"
-            },
-            {
-                "title": "Room detail",
-                "link": "/detail-rooms"
-            }
-        ],
-        "lg": "2",
-        "md": "6"
-    },
-    {
-        "title": "Pages",
-        "links": [
-            {
-                "title": "Comparison",
-                "link": "/compare"
-            },
-            {
-                "title": "Team",
-                "link": "/team"
-            },
-            {
-                "title": "Contact",
-                "link": "/contact"
-            }
-        ],
-        "lg": "2",
-        "md": "6"
-    },
+    
+    
     {
         "title": "Daily Offers & Discounts",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.",
+        "content": "Sign up to our newsletter",
         "contentBottomMargin": "3",
         "form": {
             "placeholder": "Your Email Address"

@@ -87,7 +87,7 @@ const Footer = () => {
                       })}
                     </ul>
                   )}
-                  {item.links && (
+                  {/* {item.links && (
                     <ul className="list-unstyled">
                       {item.links.map((link) => (
                         <li key={link.title}>
@@ -108,7 +108,7 @@ const Footer = () => {
                         </li>
                       ))}
                     </ul>
-                  )}
+                  )} */}
                   {item.form && (
                     <Form id="newsletter-form" action="#">
                       <InputGroup className="input-group mb-3">

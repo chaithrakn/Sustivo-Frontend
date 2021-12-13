@@ -13,7 +13,7 @@ import Swiper from "../components/Swiper"
 import Reviews from "../components/Reviews"
 import ReviewForm from "../components/ReviewForm"
 
-import details from "../data/detail-rooms.json"
+import roomsJSON from "../data/detail-rooms.json"
 
 import SwiperGallery from "../components/SwiperGallery"
 import Gallery from "../components/Gallery"
@@ -56,37 +56,34 @@ export async function getStaticProps() {
 }
 
 const DetailRooms = () => {
-  const router = useRouter();
-  useEffect(()=>{
-    if(!router.isReady) {
-      return <span>Loading...</span>;
-      
-    }  
-    
-    // codes using router.query
-
-}, [router.isReady]);
-
-  var index = router.query ? router.query.index : 0
-  const data = details[index]
-  // console.log(data)
+  //const router = useRouter();
   
+
+  //const index = router.isReady ? router.query.index : 0
+
+    const data = roomsJSON.features[0]
+
+    console.log(data)
+      
+      
+
+      const groupByN = (n, data) => {
+        let result = []
+        for (let i = 0; i < data.length; i += n) result.push(data.slice(i, i + n))
+        return result
+      }
+
+      const groupedAmenities = data.amenities && groupByN(4, data.amenities)
+
+
   const size = UseWindowSize()
-  const [range, setRange] = React.useState([
-    { startDate: new Date() },
-    { endDate: "" },
-  ])
-  const [dateFocused, setDateFocused] = React.useState(range.startDate)
+      const [range, setRange] = React.useState([
+        { startDate: new Date() },
+        { endDate: "" },
+      ])
+      const [dateFocused, setDateFocused] = React.useState(range.startDate)
 
-  const groupByN = (n, data) => {
-    let result = []
-    for (let i = 0; i < data.length; i += n) result.push(data.slice(i, i + n))
-    return result
-  }
-
-  const groupedAmenities = data.amenities && groupByN(4, data.amenities)
-
-  return (
+  return data ? (
     <React.Fragment>
       <section>
         <SwiperGallery data={data.swiper} />
@@ -400,6 +397,8 @@ const DetailRooms = () => {
         </section>
       )}
     </React.Fragment>
+  ) : (
+    "Loading..."
   )
 }
 

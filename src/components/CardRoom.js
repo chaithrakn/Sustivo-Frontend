@@ -6,12 +6,9 @@ import { Card } from "react-bootstrap"
 import Stars from "./Stars"
 import Image from "./CustomImage"
 import Icon from "./Icon"
-import Avatar from "./Avatar"
-import { useState, useEffect } from 'react';
 
 const CardRoom = (props) => {
   const data = props.data
-  const detailpath = 'detail-rooms-' + data.index + '.json'
   return (
     <Card className="h-100 border-0 shadow">
       <div className="card-img-top overflow-hidden gradient-overlay">
@@ -29,12 +26,12 @@ const CardRoom = (props) => {
               : "(max-width:576px) 100vw, (max-width:991px) 50vw, (max-width:1149px) 30vw, 280px"
           }
         />
-        <Link href={{ pathname: '/detail-rooms', query: {index: `${data.index}`}}} >
+        {/* <Link href={{ pathname: '/detail-rooms', query: {index: `${data.index}`}}} >
           <a
             className="tile-link"
             aria-label={`Read more about ${data.title}`}
           />
-        </Link>
+        </Link> */}
         
         <div className="card-img-overlay-top text-end">
           <a

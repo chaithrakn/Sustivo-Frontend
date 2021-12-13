@@ -1,6 +1,14 @@
-[
+{ 
+  "title": "All Hotels",
+  "type": "FeatureCollection",
+  "features": [
   {
     "index": 0,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99967, 40.73723]
+    },
+    "id": "59c0c8e33b1527bfe2abaf92",
     "name": "Hotel Sol y Luna",
     "subtitle": "Generates income to support the Sol y Luna Intercultural School",
     "website": "https://www.hotelsolyluna.com/",
@@ -117,6 +125,11 @@
 
   {
     "index": 1,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99967, 40.73723]
+    },
+    "id": "59c0c8e33b1527bfe2abaf92",
     "name": "Awasi Patagonia",
     "subtitle": "Generates income to support the Sol y Luna Intercultural School",
     "website": "https://awasipatagonia.com/about/",
@@ -225,6 +238,11 @@
 
   {
     "index": 2,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99967, 40.73723]
+    },
+    "id": "59c0c8e33b1527bfe2abaf92",
     "name": "Conscious Hotels",
         "subtitle": "Sustainable & smart eco-design hotels",
         "website": "https://www.conscioushotels.com/",
@@ -320,6 +338,11 @@
 
   {
     "index": 3,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99967, 40.73723]
+    },
+    "id": "59c0c8e33b1527bfe2abaf92",
     "name": "Posada Amazonas",
         "subtitle": "Eseeja de Infierno Native Community directly receives 75% of the profits that the business generates",
         "website": "https://www.rainforestexpeditions.com/amazon-lodge/posada-amazonas/",
@@ -422,6 +445,11 @@
 
   {
     "index": 4,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99967, 40.73723]
+    },
+    "id": "59c0c8e33b1527bfe2abaf92",
     "name": "Eden Lodge Paris",
         "subtitle": "Green and glamorous, in the heart of Paris",
         "website": "https://www.edenlodgeparis.net/en/eco-luxury/",
@@ -524,6 +552,11 @@
 
   {
     "index": 5,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99967, 40.73723]
+    },
+    "id": "59c0c8e33b1527bfe2abaf92",
     "name": "Three Camel Lodge",
         "subtitle": "Green and glamorous, in the heart of Paris",
         "website": "https://www.edenlodgeparis.net/en/eco-luxury/",
@@ -625,6 +658,11 @@
   },
   {
     "index": 6,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99967, 40.73723]
+    },
+    "id": "59c0c8e33b1527bfe2abaf92",
     "name": "White Pod",
         "subtitle": "Green and glamorous, in the heart of Paris",
         "website": "https://www.edenlodgeparis.net/en/eco-luxury/",
@@ -726,6 +764,11 @@
   },
   {
     "index": 7,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99967, 40.73723]
+    },
+    "id": "59c0c8e33b1527bfe2abaf92",
     "name": "Tiger Mountain Pokhara",
         "subtitle": "Green and glamorous, in the heart of Paris",
         "website": "https://www.edenlodgeparis.net/en/eco-luxury/",
@@ -827,6 +870,11 @@
   },
   {
     "index": 8,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99967, 40.73723]
+    },
+    "id": "59c0c8e33b1527bfe2abaf92",
     "name": "Misool",
         "subtitle": "Green and glamorous, in the heart of Paris",
         "website": "https://www.edenlodgeparis.net/en/eco-luxury/",
@@ -928,6 +976,11 @@
   },
   {
     "index": 9,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99967, 40.73723]
+    },
+    "id": "59c0c8e33b1527bfe2abaf92",
     "name": "Lapas Rios",
         "subtitle": "Green and glamorous, in the heart of Paris",
         "website": "https://www.edenlodgeparis.net/en/eco-luxury/",
@@ -1029,6 +1082,11 @@
   },
   {
     "index":10,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99967, 40.73723]
+    },
+    "id": "59c0c8e33b1527bfe2abaf92",
     "name": "Lapa Rios",
         "subtitle": "Green and glamorous, in the heart of Paris",
         "website": "https://www.edenlodgeparis.net/en/eco-luxury/",
@@ -1130,3 +1188,5 @@
   }
   
 ]
+
+}

@@ -19,7 +19,7 @@ export async function getStaticProps() {
         classes: "shadow",
         color: "white",
       },
-      title: "Restaurants | Category - Map on the top",
+      title: "All Hotels",
     },
   }
 }
@@ -32,6 +32,8 @@ const Category = () => {
   const onCardLeave = () => {
     setHoverCard(null)
   }
+
+  //console.log(geoJSON)
 
   return (
     <React.Fragment>
