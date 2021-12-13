@@ -1,8 +1,7 @@
 import React from "react"
 
-import CardRestaurant from "./CardRestaurant"
 import CardRoom from "./CardRoom"
-import CardPoster from "./CardPoster"
+import CardExp from "./CardExp"
 import CardProperty from "./CardProperty"
 import { Navigation, Pagination, Autoplay, EffectFade } from "swiper"
 
@@ -83,6 +82,13 @@ const SwiperComponent = (props) => {
                 <CardRoom data={slide.properties} />
               </div>
             )}
+
+            {props.cardexp && (
+              <div className="w-100 h-100 hover-animate">
+                <CardExp data={slide.properties} />
+              </div>
+            )}      
+            
             
           </SwiperSlide>
         )

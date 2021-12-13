@@ -6,6 +6,7 @@ import { Container, Row, Col, Button } from "react-bootstrap"
 import Swiper from "../components/Swiper"
 import SearchBar from "../components/SearchBar"
 import LastMinute from "../components/LastMinute"
+import Experiences from "../components/Experiences"
 import Guides from "../components/Guides"
 import Instagram from "../components/Instagram"
 import CardPost from "../components/CardPost"
@@ -102,6 +103,7 @@ const Index = () => {
       
       <LastMinute greyBackground/>
       
+      <Experiences greyBackground/>
 
       {data.jumbotron && (
         <section className="py-7 position-relative dark-overlay">
