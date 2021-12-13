@@ -32,6 +32,11 @@ const CardRoom = (props) => {
             aria-label={`Read more about ${data.title}`}
           />
         </Link> */}
+        {/* <Link
+              href="/detail-rooms/[slug]"
+              as={`/detail-rooms/${data.slug}`}
+              passHref
+            ></Link> */}
         
         <div className="card-img-overlay-top text-end">
           <a
@@ -46,9 +51,14 @@ const CardRoom = (props) => {
       <Card.Body className="d-flex align-items-center">
         <div className="w-100">
           <Card.Title as="h4">
-            <Link href={{ pathname: '/detail-rooms', query: {index: data.index}}} >
+            {/* <Link href={{ pathname: '/detail-rooms', query: {index: data.index}}} >
               <a className="text-decoration-none text-dark">{data.name}</a>
-            </Link>
+            </Link> */}
+            {/* <Link
+              href="/detail-rooms/[slug]"
+              as={`/detail-rooms/${data.slug}`}
+              passHref
+            ></Link> */}
           </Card.Title>
           <Card.Subtitle className="d-flex mb-3" as="div">
             <p className="flex-grow-1 mb-0 text-muted text-sm">

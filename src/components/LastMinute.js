@@ -9,23 +9,9 @@ import geoJSON from "../data/rooms-geojson.json"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons"
 import { useState, useEffect } from 'react';
-import { getHotels } from '../hooks/hotels';
 
 
 const LastMinute = (props) => {
-  
-  const [hotels, setHotels] = useState([]);
-
-  useEffect(() => {
-    let mounted = true;
-    getHotels()
-      .then(hotels => {
-        if(mounted) {
-          setHotels(hotels)
-        }
-      })
-    return () => mounted = false;
-  }, [])
  
   return (
     <section className={`py-6 ${props.greyBackground ? "bg-gray-100" : ""}`}>
